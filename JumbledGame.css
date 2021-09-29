@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.Container
+{
+	height: 400px;
+	width: 420px;
+	background-color: lightgray;
+	border-radius: 10px;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.Container .padd
+{
+	padding: 30px;
+}
+
+.Container .Score
+{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Container .Jumbled
+{
+	width: 100%;
+	font-size: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: segoe ui;
+}
+
+.Container .User-Input
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+  flex-direction: column;
+}
+
+.ing{
+	height: 40px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	text-indent: 20px;
+	outline: none;
+}
+
+.Button
+{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #239cf3;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+
+}
